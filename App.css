@@ -1,0 +1,40 @@
+/* Reset root layout */
+#root {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  text-align: left;
+}
+
+/* Remove default Vite styles */
+.logo,
+.card,
+.read-the-docs {
+  all: unset;
+}
+
+/* ---------- QUILL CUSTOM FONT STYLES ---------- */
+
+.ql-font-arial {
+  font-family: Arial, sans-serif;
+}
+
+.ql-font-times-new-roman {
+  font-family: "Times New Roman", serif;
+}
+
+.ql-font-georgia {
+  font-family: Georgia, serif;
+}
+
+.ql-font-courier-new {
+  font-family: "Courier New", monospace;
+}
+
+.ql-font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.ql-font-poppins {
+  font-family: "Poppins", sans-serif;
+}
