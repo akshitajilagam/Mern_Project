@@ -1,0 +1,273 @@
+/* ---------------- GOOGLE FONTS ---------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+/* ---------------- GLOBAL RESET ---------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f5f9;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+/* ---------------- QUILL BASE ---------------- */
+
+.ql-editor {
+  font-family: Arial, sans-serif;
+  min-height: 350px;
+  font-size: 16px;
+}
+
+/* ---------------- FONT APPLICATION ---------------- */
+
+.ql-editor .ql-font-arial { font-family: Arial, sans-serif; }
+.ql-editor .ql-font-times { font-family: "Times New Roman", serif; }
+.ql-editor .ql-font-georgia { font-family: Georgia, serif; }
+.ql-editor .ql-font-courier { font-family: "Courier New", monospace; }
+.ql-editor .ql-font-verdana { font-family: Verdana, sans-serif; }
+.ql-editor .ql-font-tahoma { font-family: Tahoma, sans-serif; }
+.ql-editor .ql-font-trebuchet { font-family: "Trebuchet MS", sans-serif; }
+.ql-editor .ql-font-garamond { font-family: Garamond, serif; }
+.ql-editor .ql-font-roboto { font-family: Roboto, sans-serif; }
+.ql-editor .ql-font-poppins { font-family: Poppins, sans-serif; }
+
+/* ---------------- SIZE APPLICATION (IMPORTANT FIX) ---------------- */
+
+.ql-editor .ql-size-12px { font-size: 12px; }
+.ql-editor .ql-size-14px { font-size: 14px; }
+.ql-editor .ql-size-16px { font-size: 16px; }
+.ql-editor .ql-size-18px { font-size: 18px; }
+.ql-editor .ql-size-20px { font-size: 20px; }
+.ql-editor .ql-size-24px { font-size: 24px; }
+.ql-editor .ql-size-28px { font-size: 28px; }
+.ql-editor .ql-size-32px { font-size: 32px; }
+.ql-editor .ql-size-36px { font-size: 36px; }
+
+/* ---------------- FIX FONT DROPDOWN LABELS ---------------- */
+
+.ql-snow .ql-picker.ql-font {
+  width: 160px;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="arial"]::before { content: "Arial"; }
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="times"]::before { content: "Times New Roman"; }
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="georgia"]::before { content: "Georgia"; }
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="courier"]::before { content: "Courier New"; }
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="verdana"]::before { content: "Verdana"; }
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="tahoma"]::before { content: "Tahoma"; }
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="trebuchet"]::before { content: "Trebuchet MS"; }
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="garamond"]::before { content: "Garamond"; }
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="roboto"]::before { content: "Roboto"; }
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="poppins"]::before { content: "Poppins"; }
+
+/* Selected label */
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="arial"]::before { content: "Arial"; }
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="times"]::before { content: "Times New Roman"; }
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="georgia"]::before { content: "Georgia"; }
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="courier"]::before { content: "Courier New"; }
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="verdana"]::before { content: "Verdana"; }
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="tahoma"]::before { content: "Tahoma"; }
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="trebuchet"]::before { content: "Trebuchet MS"; }
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="garamond"]::before { content: "Garamond"; }
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="roboto"]::before { content: "Roboto"; }
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="poppins"]::before { content: "Poppins"; }
+
+/* ---------------- SIZE DROPDOWN DISPLAY ---------------- */
+
+.ql-snow .ql-picker.ql-size {
+  width: 90px;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="12px"]::before { content: "12"; }
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="14px"]::before { content: "14"; }
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="16px"]::before { content: "16"; }
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="18px"]::before { content: "18"; }
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="20px"]::before { content: "20"; }
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="24px"]::before { content: "24"; }
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="28px"]::before { content: "28"; }
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="32px"]::before { content: "32"; }
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="36px"]::before { content: "36"; }
+
+/* ---------------- CLEAN TOOLBAR LOOK ---------------- */
+
+.ql-toolbar {
+  border-radius: 10px 10px 0 0;
+}
+
+.ql-container {
+  border-radius: 0 0 10px 10px;
+}
+/* -------- FIX SELECTED SIZE LABEL DISPLAY -------- */
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="12px"]::before { content: "12"; }
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="14px"]::before { content: "14"; }
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="16px"]::before { content: "16"; }
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="18px"]::before { content: "18"; }
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="20px"]::before { content: "20"; }
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="24px"]::before { content: "24"; }
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="28px"]::before { content: "28"; }
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="32px"]::before { content: "32"; }
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="36px"]::before { content: "36"; }
+
+
+/* -------- PERFECT DROPDOWN SIZING -------- */
+
+/* Make font dropdown wider */
+.ql-snow .ql-picker.ql-font {
+  width: 220px !important;
+}
+
+/* Make size dropdown compact */
+.ql-snow .ql-picker.ql-size {
+  width: 60px !important;
+}
+
+/* Prevent wrapping */
+.ql-snow .ql-picker.ql-font .ql-picker-label,
+.ql-snow .ql-picker.ql-font .ql-picker-item {
+  white-space: nowrap;
+}
+
+/* Improve arrow spacing */
+.ql-snow .ql-picker-label {
+  padding-right: 22px;
+}
+
+/* ---------------- TOOLTIP STYLING ---------------- */
+
+.ql-toolbar button,
+.ql-toolbar .ql-picker {
+  position: relative;
+}
+
+/* Tooltip text */
+.ql-toolbar button:hover::after,
+.ql-toolbar .ql-picker:hover::after {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1e293b;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 1000;
+}
+
+/* Individual tooltips */
+
+.ql-bold:hover::after { content: "Bold"; }
+.ql-italic:hover::after { content: "Italic"; }
+.ql-underline:hover::after { content: "Underline"; }
+
+.ql-list[value="ordered"]:hover::after { content: "Numbered List"; }
+.ql-list[value="bullet"]:hover::after { content: "Bullet List"; }
+
+.ql-align:hover::after { content: "Align"; }
+
+.ql-color:hover::after { content: "Text Color"; }
+.ql-background:hover::after { content: "Highlight"; }
+
+.ql-link:hover::after { content: "Insert Link"; }
+.ql-image:hover::after { content: "Insert Image"; }
+
+.ql-picker.ql-font:hover::after { content: "Font Family"; }
+.ql-picker.ql-size:hover::after { content: "Font Size"; }
+
+/* Alignment tooltips */
+
+.ql-align[value=""]::after { content: "Align Left"; }
+.ql-align[value="center"]::after { content: "Align Center"; }
+.ql-align[value="right"]::after { content: "Align Right"; }
+.ql-align[value="justify"]::after { content: "Justify"; }
+
+.ql-align:hover::after {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1e293b;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 1000;
+}
+/* Alignment tooltips */
+
+/* -------- ALIGN TOOLTIP (CUSTOM BUTTONS) -------- */
+
+.ql-toolbar button.ql-align-left,
+.ql-toolbar button.ql-align-center,
+.ql-toolbar button.ql-align-right {
+  position: relative;
+}
+
+.ql-toolbar button.ql-align-left:hover::after {
+  content: "Align Left";
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1e293b;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 1000;
+}
+
+.ql-toolbar button.ql-align-center:hover::after {
+  content: "Align Center";
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1e293b;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 1000;
+}
+
+.ql-toolbar button.ql-align-right:hover::after {
+  content: "Align Right";
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1e293b;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 1000;
+}
+
+/* remove quill white background */
+.ql-container {
+  background-color: transparent !important;
+}
+
+.ql-editor {
+  background-color: transparent !important;
+}
+
+/* keep toolbar normal */
+.ql-toolbar {
+  background-color: #ffffff;
+}
